@@ -25,12 +25,48 @@ form {
   width:100%;
 
 }
-.searchbox {
-  margin: auto;
-}
 .footer {
   position:absolute;
-  bottom:5;
+  bottom:0;
   width:100%;
-  height:30px;
+  height:40px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  vertical-align: middle;
+  line-height: 40px;
+  min-width: 980px;  
+}
+input[type=text], select {
+    min-width:250px;
+    width:500px;
+    padding: 5px 10px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type=submit] {
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: #757575;
+    padding: 14px 20px;
+    margin: auto;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+.footer-right {
+    float:right;
+
 }
