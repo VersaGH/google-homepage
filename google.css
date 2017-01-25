@@ -22,6 +22,7 @@ li a {
 }
 .topbar {
   float:right;
+    
 }
 img {
   display:block;
@@ -79,8 +80,9 @@ input[type=submit] {
     
 }
 .footer-right {
-    float:right;
-    padding-bottom:0;
+    float:right; /* Causes right side of footer to become uncentered vertically */
+
+    
 
 }
 
@@ -101,4 +103,8 @@ input[type=submit] {
 .bluebutton a {
     color:white;
     font-weight: bold;
+}
+.bluebutton a:hover {
+    color:white;
+    text-decoration: none;
 }
